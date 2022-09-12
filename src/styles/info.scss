@@ -1,0 +1,40 @@
+.info{
+    margin-top: 40px;
+}
+.info_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_title {
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #717171;
+}
+.info_text{
+    max-width: 560px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.info_text p:nth-child(1){
+    margin-bottom: 20px;
+}
+.info_text p:nth-child(2){
+    margin-bottom: 20px;
+}
+.info_text p:nth-child(3){
+    margin-bottom: 20px;
+}
+#info_last{
+    font-weight: 700;
+    padding: 0 10px;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    .info_body{
+        flex-direction: column;
+    }
+}

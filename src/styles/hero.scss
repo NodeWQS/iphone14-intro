@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.hero {
+    padding-top: 77px;
+    background: #F5F5F7;
+}
+.hero_container {
+    max-width: 1200px;
+    text-align: center  ;
+    margin: 0 auto;   
+}
+.hero_title {
+    margin-bottom: 40px;
+    text-align: center;
+    h3{
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #490E84;
+        font-size: 64px;
+    }
+}
+.hero_btn{
+    margin-bottom: 40px;
+    max-width: 350px;
+    height: 70px;
+    background: #490E84;
+    font-size: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 22px  117px 19px 118px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.hero_img{
+    margin: 0 auto;
+    margin-bottom: 25px;
+    height: 657px;
+    max-width: 937px;
+    background-image: url('../photos/iphone14.png');
+    background-size: cover;
+    background-position: center left;
+}
+
+@media screen and (max-width: 937px) {
+    .hero_img{
+        max-width: 100%;
+    }
+}

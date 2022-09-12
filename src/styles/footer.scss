@@ -1,0 +1,35 @@
+footer {
+    padding: 0 10px;
+    min-height: 150px;
+    background: #0A0A0A;
+}
+.links {
+    min-height: 150px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links li span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #717171;
+}
+.links li a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #717171;
+}
+@media screen and (max-width: 950px) {
+    .links li:nth-child(1){
+        margin-top: 15px;
+    }
+    .links {
+        flex-direction: column;
+    }
+}
